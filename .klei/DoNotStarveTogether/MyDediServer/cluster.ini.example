@@ -12,6 +12,7 @@ lan_only_cluster = false
 cluster_intention = social
 offline_cluster = false
 cluster_password = sample
+tick_rate = 10
 
 [MISC]
 max_snapshots = 6                  # 最大快照数，决定了可回滚的天数
