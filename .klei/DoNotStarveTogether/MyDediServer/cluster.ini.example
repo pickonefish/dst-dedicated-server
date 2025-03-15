@@ -11,14 +11,14 @@ cluster_name = Sample
 lan_only_cluster = false
 cluster_intention = social
 offline_cluster = false
-cluster_password = aaaassss
+cluster_password = sample
 
 [MISC]
 console_enabled = true
 
 [SHARD]
-shard_enabled = true
-bind_ip = 192.168.2.131
-master_ip = 192.168.2.131
+shard_enabled = false
+bind_ip = 127.0.0.1
+master_ip = 127.0.0.1
 master_port = 10889
 cluster_key = supersecretkey
