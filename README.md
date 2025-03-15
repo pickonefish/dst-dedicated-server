@@ -20,7 +20,7 @@
 1. **Download `MyDediServer/`**  
 2. **Move it to the folder**:  
 ```plaintext
-~/.klei/DoNotStarveTogether/
+./.klei/DoNotStarveTogether/
 ```
 
 
