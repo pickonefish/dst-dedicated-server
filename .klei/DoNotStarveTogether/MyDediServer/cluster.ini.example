@@ -14,7 +14,8 @@ offline_cluster = false
 cluster_password = sample
 
 [MISC]
-console_enabled = true
+max_snapshots = 6                  # 最大快照数，决定了可回滚的天数
+console_enabled = true             # 是否开启控制台
 
 [SHARD]
 shard_enabled = false
