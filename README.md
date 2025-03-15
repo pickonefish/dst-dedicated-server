@@ -61,6 +61,18 @@ How to Install/Configure and Update Mods
 
 ---
 
+
+## Backup
+
+```
+mkdir -p ~/.klei/DoNotStarveTogether/MyDediServer/Master/backup
+```
+
+```
+*/30 * * * * cp -r ~/.klei/DoNotStarveTogether/MyDediServer/Master/save ~/.klei/DoNotStarveTogether/MyDediServer/Master/backup/save_$(date +\%Y\%m\%d_\%H\%M\%S)
+```
+
+
 ## Reference  
 - [Updated Dedicated Server Quick Setup Guide (Linux, 2022)](https://forums.kleientertainment.com/forums/topic/140715-2022-updated-dedicated-server-quick-setup-guide-linux/)  
 - [SteamCmd Docker Hub](https://hub.docker.com/r/steamcmd/steamcmd/tags)  
