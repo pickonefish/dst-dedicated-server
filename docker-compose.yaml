@@ -3,10 +3,10 @@ services:
   steamcmd:
     image: pickonefish/steamcmd-dst:mods-rocky-8
     container_name: dst_server
-    stdin_open: true
-    tty: true
-    entrypoint: /bin/sh
-    #entrypoint: /opt/run_dedicated_server.sh
+    #stdin_open: true
+    #tty: true
+    #entrypoint: /bin/sh
+    entrypoint: /opt/run_dedicated_server.sh
     volumes:
       - ./.klei/DoNotStarveTogether:/root/.klei/DoNotStarveTogether
-      - ./DST:/root/steamapps/DST
+      - ../dataofdst:/root/steamapps/DST
